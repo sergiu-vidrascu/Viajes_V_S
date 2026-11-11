@@ -1,0 +1,57 @@
+*{
+  margin: 1px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 243, 239); 
+  font-family: Arial, sans-serif;
+}
+
+.logo1{
+
+
+}
+.form{
+  
+  margin-block: 15px;
+  margin-bottom: 20px;
+}
+
+button :hover {
+
+  transition: o,3s;
+}
+#limpiar{
+  border-radius: 5px;
+  background-color: rgb(245, 245, 220);
+}
+.layout{
+  display:grid;
+  
+  grid-template-areas: 
+        "header header header"
+        "aside1 main aside2 "
+        "footer footer footer"; 
+
+     grid-template-columns:2fr 9fr 2fr;
+     grid-template-rows: 1fr 1fr 1fr;
+  
+  width: 120px;
+  margin-bottom: 100vh;
+}
+
+header{
+  grid-area: header;
+
+}
+aside{
+  grid-area: aside2;
+
+}
+footer{
+  grid-area: footer;
+
+}
+ 
