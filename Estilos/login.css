@@ -48,7 +48,7 @@ button {
     background-color: rgb(73, 73, 207);
     color: white;
     font-weight: bolder;
-    transition: 0.3s;
+    transition: 1s;
 }
 a {
     text-decoration: none;
