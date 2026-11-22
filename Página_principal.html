@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="Estilos/pagina-principal.css">
+  <link rel="stylesheet" href="pagina-principal.css">
   <title>Mi primera web</title>
-  <!-- Viajesion VTC -->
+  <!-- VTC -->
 </head>
 <body>
 
@@ -13,15 +13,17 @@
     
     <header>
 
-     <div class="logo1">
-      <img src="Estilos/Fotos/icono1.png"> 
-     </div>
+      <div class="logo1" >
+       <a href="#"><img src="fotos/icono1.png" alt="home"> </a>
+      </div>
       
       <div class="titulo">
         <h1>Viajes VTC</h1>
         <p>Sincronizado</p>
       </div>
 
+
+    <nav class="controlesfecha">   
       <div class ="fechaBotonesIzq">
         <button>‹</button>
         <button>Hoy</button>
@@ -36,12 +38,17 @@
       <div class ="fechaBotonesDer">
        <button>›</button>
        </div>
+    </nav>   
 
+       <div class="logo2">
+        <a href="Conductores.html"><img src="Estilos/Fotos/usuario.jpeg" alt="util_usuario"></a>
+       </div>
+      
 
     </header>
 
 
-    <aside> aside
+    <aside> 
       <!-- los elementos funcionales de guardado -->
     </aside>
 
@@ -54,30 +61,72 @@
         <p><b>0</b> sin conductor</p>
       </div>
 
-      <div class="nuevoServicio">
-        <button>+ Nuevo Servicio</button>
-      </div>
+      
 
       <div class="form">
         <form>
-          <label>REFERENCIA</label>
-          <input type="text" placeholder="Ej. 2640149"> 
 
-          <label>CLIENTE</label>
-          <input type="text" placeholder=" Nombre cliente...">
+          <div class="row1">
+            <label>REFERENCIA</label>
+            <input type="text" placeholder="Ej. 2640149"> 
+          </div>
 
-          <label>CONDUCTOR</label>
-          <input type="text"  placeholder="Nombre conductor...">
+          <div class="row2">
+            <label>CLIENTE</label>
+            <input type="text" placeholder=" Nombre cliente...">
+          </div>
 
-          <button id="limpiar">Limpiar</button>
+          <div class="row3">
+            <label>CONDUCTOR</label>
+            <input type="text"  placeholder="Nombre conductor...">
+          </div>
+
+          <div class="row4">
+            <button id="limpiar">Limpiar</button>
+          </div>
+          
+          <div class="nuevoServicio">
+            <button>+ Nuevo Servicio</button>
+          </div>
+
         </form>
-        </div>
-      <!-- tabla -->
+      </div>
+
+
+      <div class="tabla">
+
+        <table>
+         <thead>
+            <tr> 
+              <th>HORA</th>
+              <th>REF.</th>
+              <th>CLIENTE</th>
+              <th>PASAJERO/TEL</th>
+              <th>TIPO DE COCHE</th>
+              <th>LUGAR DE RECOGIDA</th>
+              <th>DESTINO</th>
+              <th>CONDUCTOR</th>
+              <th>TARIFA CONDUCTOR</th>
+              <th> WA/FACT.</th>
+           </tr>
+
+
+
+          </thead>
+          
+        </table>
+        <div class="noServicio">
+            <p>Ningún servicio para ese día</p>
+             <a href="#"><button>+ Añadir primer servicio</button> </a>
+            </div>
+      </div>
+        
+      
     </main>
 
 
     <!-- EL contador -->
-    <footer> Contador </footer>
+    <footer>  </footer>
 
   </div>
 

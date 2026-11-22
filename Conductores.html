@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conductores</title>
+  <link rel="stylesheet" href="conductores.css">
+</head>
+<body>
+  <div class="panel-header">
+      <h2>Conductores de la flota</h2>
+      <button class="btn btn-secondary" id="btn-close-drivers">Cerrar</button>
+  </div>
+  <div class="panel-body">
+      <p>Añade o edita conductores (nombre + teléfono). La lista aparece al asignar servicios.</p>
+      <div class="add-driver-row">
+        <input type="text" id="nuevo-driver-name" placeholder="Nombre del conductor">
+        <input type="tel" id="nuevo-driver-phone" placeholder="Teléfono personal">
+        <input type="text" id="nuevo-driver-plate" placeholder="Matrícula vehículo">
+        <button type="button" id="btn-add-driver">Añadir</button>
+      </div>
+      <div id="drivers-list">
+        <div class="driver-item">
+          <div class="avatar">G</div>
+          <div class="fields">
+            <input type="text" value="" placeholder="Nombre">
+            <input type="tel" value="" placeholder="Teléfono personal">
+            <input type="text" value="" placeholder="Matrícula vehículo">
+          </div>
+          <button type="button" class="btn-eliminar" title="Eliminar">×</button>
+        </div>
+        <div class="driver-item">
+          <div class="avatar">I</div>
+          <div class="fields">
+            <input type="text" value="" placeholder="Nombre">
+            <input type="tel" value="" placeholder="Teléfono personal">
+            <input type="text" value="" placeholder="Matrícula vehículo">
+          </div>
+          <button type="button" class="btn-eliminar" title="Eliminar">×</button>
+        </div>
+        <div class="driver-item">
+          <div class="avatar">I</div>
+          <div class="fields">
+            <input type="text" value="" placeholder="Nombre">
+            <input type="tel" value=""  placeholder="Teléfono personal">
+            <input type="text" value="" placeholder="Matrícula vehículo">
+          </div>
+          <button type="button" class="btn-eliminar" title="Eliminar">×</button>
+        </div>
+        <div class="driver-item">
+          <div class="avatar">O</div>
+          <div class="fields">
+            <input type="text" value="" placeholder="Nombre">
+            <input type="tel" value="" placeholder="Teléfono personal">
+            <input type="text" value="" placeholder="Matrícula vehículo">
+          </div>
+          <button type="button" class="btn-eliminar" title="Eliminar">×</button>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
